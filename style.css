@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&display=swap');
+
+.myClass{
+  color: rgb(90, 90, 90);
+  cursor: auto;
+    font-size: 21px;
+    padding: 6px 16px;
+    border-radius: 20px;
+}
+
+.myClass:hover{
+    color: rgb(0, 0, 0);
+    background-color: #d4d4d4;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.img01{
+    border-radius: 50%;
+    width: 55px;
+    cursor: pointer;
+}
+
+.company-text{
+    cursor: pointer;
+    font-family:'M PLUS 1 Code', sans-serif;
+    font-size: 32px;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content  {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid rgb(59, 59, 59);
+    width: 50%;
+    margin: auto !important;
+  } 
+  
+  .close-1 {
+    color: #aaaaaa;
+    font-size: 28px; 
+    float: right;
+    font-weight: bold;
+  }
+  
+  .close-1:hover,
+  .close-1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .myInput{
+    width: 80%;
+    height: 43px;
+    margin-bottom: 12px;
+    border: 0.2px solid black;
+    border-radius: 12px;
+    cursor: text;
+    background-color: #ececec86;
+    padding: 20px;
+  }
+
+  .dropbtn {
+    color: rgb(90, 90, 90);
+    padding: 16px;
+    font-size: 21px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .height-110per{
+    height: 110%;
+  }
+
+  .pos-sticky{
+    position: sticky !important;
+    font-size: larger !important;
+  }
+
+  #fb:hover{
+    color: #4064ac;
+  }
+
+  #tw:hover{
+    color: #4ea6e9;
+  }
+  
+  #insta:hover{
+    color: rgb(243, 32, 102);
+  }
+
+  #lin:hover{
+    color: #2f6de9;
+  }
